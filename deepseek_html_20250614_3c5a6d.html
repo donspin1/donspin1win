@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1WIN | 500% Бонус + 150 Фриспинов | Промокод DONSPIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --dark: #0A0A0F;
+            --gray-dark: #1E1E28;
+            --gray: #2D2D36;
+            --light: #FFFFFF;
+            --accent: #0066FF;
+            --accent-light: #0088FF;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: var(--gray-dark);
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        h1, h2, h3 {
+            font-weight: 800;
+        }
+        
+        h1 {
+            font-size: 42px;
+            margin-bottom: 24px;
+            background: linear-gradient(90deg, var(--light), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            max-width: 600px;
+            margin: 0 auto 48px;
+        }
+        
+        .bonus-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 14px 32px;
+            border-radius: 50px;
+            margin: 32px 0;
+            box-shadow: var(--shadow);
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, var(--accent), var(--accent-light));
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            text-decoration: none;
+            padding: 16px 42px;
+            border-radius: 50px;
+            transition: all 0.2s ease;
+            box-shadow: var(--shadow);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0, 102, 255, 0.4);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .promo-section {
+            background: var(--gray-dark);
+            border-radius: 50px;
+            padding: 50px;
+            margin: -40px auto 80px;
+            max-width: 800px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+        
+        .promo-title {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: var(--light);
+        }
+        
+        .promo-code {
+            font-size: 52px;
+            font-weight: 800;
+            color: var(--light);
+            margin: 40px 0;
+            letter-spacing: 4px;
+            position: relative;
+            display: inline-block;
+            padding: 0 20px;
+        }
+        
+        .promo-code::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            animation: linePulse 2s infinite;
+        }
+        
+        .promo-code::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            animation: linePulse 2s infinite;
+            animation-delay: 0.5s;
+        }
+        
+        @keyframes linePulse {
+            0% { opacity: 0; width: 0%; }
+            50% { opacity: 1; width: 100%; }
+            100% { opacity: 0; width: 0%; }
+        }
+        
+        .promo-description {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            margin: 40px 0 50px;
+            line-height: 1.6;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 80px 0;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            background: var(--gray-dark);
+            border-radius: 50px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+        
+        .feature:hover {
+            transform: translateY(-8px);
+        }
+        
+        .feature-icon {
+            font-size: 42px;
+            margin-bottom: 24px;
+            color: var(--accent);
+            text-shadow: 0 0 15px var(--accent);
+            filter: drop-shadow(0 0 8px rgba(0, 102, 255, 0.7));
+            transition: all 0.3s ease;
+        }
+        
+        .feature:hover .feature-icon {
+            filter: drop-shadow(0 0 15px rgba(0, 102, 255, 0.9));
+            transform: scale(1.1);
+        }
+        
+        .feature-title {
+            font-size: 22px;
+            margin-bottom: 16px;
+            color: var(--light);
+        }
+        
+        .feature-text {
+            color: rgba(255,255,255,0.7);
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        
+        footer {
+            background: var(--gray-dark);
+            padding: 40px;
+            text-align: center;
+            margin-top: 80px;
+            font-size: 14px;
+            color: rgba(255,255,255,0.6);
+            border-radius: 50px 50px 0 0;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            .promo-title {
+                font-size: 26px;
+                margin-bottom: 30px;
+            }
+            
+            .promo-code {
+                font-size: 36px;
+                margin: 30px 0;
+            }
+            
+            .promo-description {
+                margin: 30px 0 40px;
+            }
+            
+            .promo-section {
+                padding: 40px 30px;
+                border-radius: 40px;
+            }
+            
+            .feature {
+                border-radius: 40px;
+                padding: 30px 20px;
+                min-width: 100%;
+            }
+            
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>500% БОНУС + 150 ФРИСПИНОВ</h1>
+            <p class="subtitle">Только для новых игроков по промокоду <strong>DONSPIN</strong></p>
+            <div class="bonus-badge">500% + 150 ФРИСПИНОВ</div>
+            <a href="https://1wprde.com/casino/list?open=register&p=s70y" class="btn">ЗАБРАТЬ БОНУС И ЗАРЕГИСТРИРОВАТЬСЯ</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="promo-section">
+            <h2 class="promo-title">АКТИВИРУЙ ПРОМОКОД</h2>
+            <div class="promo-code"><strong>DONSPIN</strong></div>
+            <p class="promo-description">И получи 500% бонус на первый депозит + 150 бесплатных вращений</p>
+            <a href="https://1wprde.com/casino/list?open=register&p=s70y" class="btn">ПОЛУЧИТЬ БОНУС</a>
+        </section>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">💎</div>
+                <h3 class="feature-title">500% БОНУС</h3>
+                <p class="feature-text">Увеличь свой первый депозит в 5 раз</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎰</div>
+                <h3 class="feature-title">150 ФРИСПИНОВ</h3>
+                <p class="feature-text">Бесплатные вращения в популярных слотах</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">МГНОВЕННЫЕ ВЫПЛАТЫ</h3>
+                <p class="feature-text">Быстрый вывод выигрышей</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>18+ | Играйте ответственно</p>
+        </div>
+    </footer>
+</body>
+</html>
